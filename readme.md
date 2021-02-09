@@ -1,8 +1,17 @@
-Use this feed: https://medium.com/feed/codestar-blog
+A simple website to test Aleph & Deno.
+
+Uses Material UI, React, Aleph, Deno.
+
+# Todo
+
+* Use Material UI through esm.sh
+* Use this feed: https://medium.com/feed/codestar-blog
+* SSR/SSG build and release with Github Actions (Deno)
+* API call
 
 # Notes
 
-* aleph dev is very slow on (first?) run
+* `aleph dev` is very slow on first run, very fast on subsequent run
 
 # Result
 
