@@ -1,4 +1,9 @@
-* {
+body {
+  background-color: #ccc;
+  margin: 0;
+}
+
+/* * {
   margin: 0;
   padding: 0;
   border: none;
@@ -132,4 +137,4 @@ main {
   margin-top: 30px;
   font-size: 14px;
   color: #999;
-}
+} */

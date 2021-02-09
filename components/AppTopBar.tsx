@@ -28,13 +28,14 @@ const useStyles = makeStyles((theme: Theme) =>
   })
 );
 
-export default function Menu() {
-  //   const [count, isSyncing, increase, decrease] = useCounter()
+export default function AppTopBar() {
   const version = useDeno(() => Deno.version.deno);
   const classes = useStyles();
 
+  // TODO Built by Aleph.js in Deno {version}
+
   return (
-    <p className="links">
+    <div className={classes.root}>
       <AppBar position="static">
         <Toolbar>
           <IconButton
@@ -48,17 +49,10 @@ export default function Menu() {
           <Typography variant="h6" className={classes.title}>
             Codestar [Aleph]
           </Typography>
-          <Button color="inherit">Login</Button>
+          <Button color="inherit" href="/">Home</Button>
+          <Button color="inherit" href="/publications">Publications</Button>
         </Toolbar>
       </AppBar>
-      <a href="/">Home</a>
-      <span></span>
-      <a href="/publications">Codestar Publications</a>
-      {/* <a href="https://alephjs.org/docs/get-started" target="_blank">Get Started</a>
-        <span></span>
-        <a href="https://alephjs.org/docs" target="_blank">Docs</a>
-        <span></span>
-        <a href="https://github.com/alephjs/aleph.js" target="_blank">Github</a> */}
-    </p>
+    </div>
   );
 }

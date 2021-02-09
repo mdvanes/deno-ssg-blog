@@ -12,6 +12,7 @@ Uses Material UI, React, Aleph, Deno.
 # Notes
 
 * `aleph dev` is very slow on first run, very fast on subsequent run
+* how to keep material-ui version imports in sync over files? import_map.json?
 
 # Result
 
