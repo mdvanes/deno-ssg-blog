@@ -1,7 +1,5 @@
 import { useDeno } from "aleph";
 import React from "react";
-// import Logo from '../components/logo.tsx'
-// import useCounter from '../lib/useCounter.ts'
 import {
   AppBar,
   Toolbar,
@@ -12,7 +10,7 @@ import {
   makeStyles,
   Theme,
 } from "https://esm.sh/@material-ui/core@4.11.3";
-import { Menu as MenuIcon } from "https://esm.sh/@material-ui/icons@4.11.2";
+import AppDrawer from "./AppDrawer.tsx";
 
 const useStyles = makeStyles((theme: Theme) =>
   createStyles({
@@ -32,20 +30,11 @@ export default function AppTopBar() {
   const version = useDeno(() => Deno.version.deno);
   const classes = useStyles();
 
-  // TODO Built by Aleph.js in Deno {version}
-
   return (
     <div className={classes.root}>
       <AppBar position="static">
         <Toolbar>
-          <IconButton
-            edge="start"
-            className={classes.menuButton}
-            color="inherit"
-            aria-label="menu"
-          >
-            <MenuIcon />
-          </IconButton>
+          <AppDrawer />
           <Typography variant="h6" className={classes.title}>
             Codestar [Aleph]
           </Typography>
