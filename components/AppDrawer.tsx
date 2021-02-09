@@ -49,15 +49,12 @@ export default function TemporaryDrawer() {
           <ListItemText primary="Home" />
         </ListItem>
         <ListItem button href="/publications">
-          <ListItemIcon>
-            <HomeIcon />{" "}
-          </ListItemIcon>
           <ListItemText primary="Publications" />
         </ListItem>
       </List>
       <Divider />
       <List>
-        <ListItem button>
+        <ListItem>
           <ListItemText primary={`Built by Aleph.js in Deno ${version}`} />
         </ListItem>
       </List>

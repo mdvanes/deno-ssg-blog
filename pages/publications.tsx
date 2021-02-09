@@ -1,15 +1,27 @@
-import { useDeno } from 'aleph'
-import React from 'react'
-import { Button } from "https://esm.sh/@material-ui/core@4.11.3";
+import React from "react";
 import AppTopBar from "../components/AppTopBar.tsx";
+import {
+  Container,
+  Card,
+  CardContent,
+  Button,
+  Typography,
+} from "https://esm.sh/@material-ui/core@4.11.3";
 
 export default function Publications() {
   return (
-    <div className="page">
+    <>
       <AppTopBar />
-      {/* <link rel="stylesheet" href="../style/index.css" /> */}
-      <h1>Codestar Publications</h1>
-      <Button color="primary" variant="contained">hoi</Button>
-    </div>
-  )
+      <Container fixed>
+        <Typography variant="h3">Codestar Publications</Typography>
+        <Card>
+          <CardContent>
+            <Button color="primary" variant="contained">
+              hoi
+            </Button>
+          </CardContent>
+        </Card>
+      </Container>
+    </>
+  );
 }
