@@ -14,6 +14,7 @@ Uses Material UI, React, Aleph, Deno.
 * `aleph dev` is very slow on first run, very fast on subsequent run
 * it does not seem very stable: it crashes a lot when running `aleph dev` is hot updating
 * how to keep material-ui version imports in sync over files? import_map.json?
+* code completion does not work, e.g. proptypes on CardHeader
 
 # Result
 

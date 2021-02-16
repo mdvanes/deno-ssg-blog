@@ -4,7 +4,11 @@ import AppTopBar from "../components/AppTopBar.tsx";
 import Logo from "../components/logo.tsx";
 import useCounter from "../lib/useCounter.ts";
 import {
-  Container, Card, CardContent
+  Container,
+  Card,
+  CardHeader,
+  CardContent,
+  Typography,
 } from "https://esm.sh/@material-ui/core@4.11.3";
 
 export default function Home() {
@@ -14,17 +18,18 @@ export default function Home() {
   return (
     <>
       <AppTopBar />
-      <Container fixed>
+      <Container fixed style={{ marginTop: "1rem" }}>
         <Card>
+          <CardHeader title="Codestar [Aleph]" />
           <CardContent>
             <div className="page">
               {/* <link rel="stylesheet" href="../style/index.css" /> */}
               <p className="logo">
                 <Logo />
               </p>
-              <h1>
+              <Typography variant="h3">
                 Welcome to use <strong>Aleph.js</strong>!
-              </h1>
+              </Typography>
               <div className="counter">
                 <span>Counter:</span>
                 {isSyncing && <em>...</em>}
@@ -32,7 +37,7 @@ export default function Home() {
                 <button onClick={decrease}>-</button>
                 <button onClick={increase}>+</button>
               </div>
-              <p className="copyinfo">Built by Aleph.js in Deno {version}</p>
+              <Typography variant="body2">Built by Aleph.js in Deno {version}</Typography>
             </div>
           </CardContent>
         </Card>

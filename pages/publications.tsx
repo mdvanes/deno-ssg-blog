@@ -1,35 +1,47 @@
-import React, { useEffect } from "react";
+import React, { useEffect, useState } from "react";
 import AppTopBar from "../components/AppTopBar.tsx";
 import {
   Container,
   Card,
+  CardHeader,
   CardContent,
   Button,
-  Typography,
 } from "https://esm.sh/@material-ui/core@4.11.3";
 
 const getPublications = async () => {
-  const feed = await fetch("/test.json");
-  console.log(await feed.json());
-//   const feed = await fetch("https://medium.com/feed/codestar-blog");
+  // const feed = await fetch("https://medium.com/feed/codestar-blog");
+  const feed = await fetch("/api/posts");
+  const posts = await feed.json();
+  return posts;
 };
 
 export default function Publications() {
+  const [posts, setPosts] = useState<{ title: string }[]>([]);
+
   useEffect(() => {
-    console.log("on load");
-    getPublications();
+    (async () => {
+      const publications = await getPublications();
+      setPosts(publications);
+    })();
   }, []);
 
   return (
     <>
       <AppTopBar />
-      <Container fixed>
-        <Typography variant="h3">Codestar Publications</Typography>
+      <Container fixed style={{ marginTop: "1rem" }}>
         <Card>
+          <CardHeader title="Codestar Publications" />
           <CardContent>
-            <Button color="primary" variant="contained">
-              hoi
-            </Button>
+            {(posts as { title: string }[]).map((post) => (
+              <Button
+                key={posts.title}
+                color="primary"
+                variant="contained"
+                style={{ marginRight: "0.5rem" }}
+              >
+                {post.title}
+              </Button>
+            ))}
           </CardContent>
         </Card>
       </Container>
