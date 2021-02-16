@@ -40,6 +40,7 @@ export default function AppTopBar() {
           </Typography>
           <Button color="inherit" href="/">Home</Button>
           <Button color="inherit" href="/publications">Publications</Button>
+          <Button color="inherit" href="/about">About</Button>
         </Toolbar>
       </AppBar>
     </div>
