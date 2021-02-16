@@ -20,7 +20,7 @@ jobs:
       - name: Use Deno ${{ matrix.deno }}
         uses: denolib/setup-deno@c7d7968ad4a59c159a777f79adddad6872ee8d96
         with:
-          node-version: ${{ matrix.deno }}
+          deno-version: ${{ matrix.deno }}
       - name: Install and Build components 🔧
         run: aleph build
       - name: Deploy 🚀
