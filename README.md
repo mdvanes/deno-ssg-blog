@@ -4,20 +4,30 @@ Uses Material UI, React, Aleph, Deno.
 
 # Todo
 
-* Use Material UI through esm.sh
-* Use this feed: https://medium.com/feed/codestar-blog
-* SSR/SSG build and release with Github Actions (Deno)
-* API call
+- Use Material UI through esm.sh
+- Use this feed: https://medium.com/feed/codestar-blog
+- SSR/SSG build and release with Github Actions (Deno)
+- API call
 
 # Notes
 
-* `aleph dev` is very slow on first run, very fast on subsequent run
-* it does not seem very stable: it crashes a lot when running `aleph dev` is hot updating
-* how to keep material-ui version imports in sync over files? import_map.json?
-* code completion does not work, e.g. proptypes on CardHeader
+- `aleph dev` is very slow on first run, very fast on subsequent run
+- it does not seem very stable: it crashes a lot when running `aleph dev` is hot updating
+- how to keep material-ui version imports in sync over files? import_map.json?
+- code completion does not work, e.g. proptypes on CardHeader
+- build breaks when about.md is in pages dir, or when Mui Icons font is imported in app.tsx
+
+# Usage
+
+- Install Deno
+- Install Aleph: `deno install -A -f -n aleph https://deno.land/x/aleph@v0.3.0-alpha.1/cli.ts`
+- Initialize new project: `aleph init codestar-website-aleph`
+- Format (alternative to prettier): `deno fmt components/*.tsx api/*.tsx lib/*.tsx pages/*.tsx`
+- Lint (alternative to eslint): `deno lint components/* --unstable`
 
 # Result
 
+```
 aleph init codestar-website-aleph
 Download https://deno.land/x/aleph@v0.3.0-alpha.1/cli/init.ts
 Check https://deno.land/x/aleph@v0.3.0-alpha.1/cli/init.ts
@@ -32,3 +42,4 @@ $ aleph dev     # start the app in `development` mode
 $ aleph start   # start the app in `production` mode
 $ aleph build   # build the app to a static site (SSG)
 ---
+```
