@@ -22,7 +22,10 @@ jobs:
         with:
           deno-version: ${{ matrix.deno }}
       - name: Install and Build components 🔧
-        run: aleph build
+        run: |
+          deno version
+          deno install -A -f -n aleph https://deno.land/x/aleph@v0.3.0-alpha.1/cli.ts
+          aleph build
       - name: Deploy 🚀
         uses: JamesIves/github-pages-deploy-action@4.0.0
         with:
