@@ -13,6 +13,8 @@ Uses Material UI, React, Aleph, Deno.
 
 # Todo
 
+- build can't resolve .js etc when deployed because it is not inserting /codestar-website-aleph/ into the path. It can only run from the root path.
+- aleph@v0.3.0-alpha.6 builds but gives runtime errors. .7 and .8 do not build.
 - Use this feed and render blog https://medium.com/feed/codestar-blog
 - SSR/SSG build and release with Github Actions (Deno)
 - API call
