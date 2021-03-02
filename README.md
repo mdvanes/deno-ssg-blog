@@ -2,6 +2,15 @@ A simple website to test Aleph & Deno.
 
 Uses Material UI, React, Aleph, Deno.
 
+# Usage
+
+- Install Deno
+- Install Aleph: `deno install -A -f -n aleph https://deno.land/x/aleph@v0.3.0-alpha.1/cli.ts`
+- Run locally: `alph dev`
+- Initialize new project: `aleph init codestar-website-aleph`
+- Format (alternative to prettier): `deno fmt components/*.tsx api/*.tsx lib/*.tsx pages/*.tsx`
+- Lint (alternative to eslint): `deno lint components/* --unstable`
+
 # Todo
 
 - Use Material UI through esm.sh
@@ -16,14 +25,6 @@ Uses Material UI, React, Aleph, Deno.
 - how to keep material-ui version imports in sync over files? import_map.json?
 - code completion does not work, e.g. proptypes on CardHeader
 - build breaks when about.md is in pages dir, or when Mui Icons font is imported in app.tsx
-
-# Usage
-
-- Install Deno
-- Install Aleph: `deno install -A -f -n aleph https://deno.land/x/aleph@v0.3.0-alpha.1/cli.ts`
-- Initialize new project: `aleph init codestar-website-aleph`
-- Format (alternative to prettier): `deno fmt components/*.tsx api/*.tsx lib/*.tsx pages/*.tsx`
-- Lint (alternative to eslint): `deno lint components/* --unstable`
 
 # Result
 
