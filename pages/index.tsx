@@ -9,7 +9,7 @@ import {
   CardHeader,
   CardContent,
   Typography,
-} from "https://esm.sh/@material-ui/core@4.11.3";
+} from "@material-ui/core";
 
 export default function Home() {
   const [count, isSyncing, increase, decrease] = useCounter();

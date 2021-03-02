@@ -13,10 +13,10 @@ Uses Material UI, React, Aleph, Deno.
 
 # Todo
 
-- Use Material UI through esm.sh
-- Use this feed: https://medium.com/feed/codestar-blog
+- Use this feed and render blog https://medium.com/feed/codestar-blog
 - SSR/SSG build and release with Github Actions (Deno)
 - API call
+- Fix about.md
 
 # Notes
 
@@ -24,7 +24,7 @@ Uses Material UI, React, Aleph, Deno.
 - it does not seem very stable: it crashes a lot when running `aleph dev` is hot updating
 - how to keep material-ui version imports in sync over files? import_map.json?
 - code completion does not work, e.g. proptypes on CardHeader
-- build breaks when about.md is in pages dir, or when Mui Icons font is imported in app.tsx
+- build breaks when about.md is in pages dir (to fix), or when Mui Icons font is imported in app.tsx (workaround available)
 
 # Result
 

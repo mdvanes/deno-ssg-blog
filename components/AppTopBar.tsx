@@ -9,7 +9,7 @@ import {
   createStyles,
   makeStyles,
   Theme,
-} from "https://esm.sh/@material-ui/core@4.11.3";
+} from "@material-ui/core";
 import AppDrawer from "./AppDrawer.tsx";
 
 const useStyles = makeStyles((theme: Theme) =>

@@ -11,11 +11,11 @@ import {
   ListItemText,
   IconButton,
   Divider,
-} from "https://esm.sh/@material-ui/core@4.11.3";
+} from "@material-ui/core";
 import {
   Home as HomeIcon,
   Menu as MenuIcon,
-} from "https://esm.sh/@material-ui/icons@4.11.2";
+} from "@material-ui/icons";
 
 export default function TemporaryDrawer() {
   const [state, setState] = React.useState(false);

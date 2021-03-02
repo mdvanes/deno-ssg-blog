@@ -6,7 +6,7 @@ import {
   CardHeader,
   CardContent,
   Button,
-} from "https://esm.sh/@material-ui/core@4.11.3";
+} from "@material-ui/core";
 
 const getPublications = async () => {
   // const feed = await fetch("https://medium.com/feed/codestar-blog");
