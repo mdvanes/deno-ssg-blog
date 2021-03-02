@@ -51,11 +51,11 @@ bootstrap({
     "sharedModules": [
         {
             "url": "/app.tsx",
-            "hash": "950b6f7e1f405e0edb877ed474a2ad07ef8ad042",
+            "hash": "65a47a1f142b1cf385a0d7a0f8444bb277a10eae",
             "asyncDeps": [
                 {
                     "url": "/style/index.css",
-                    "hash": "24b456af67e963b34d6448b7c6ca22941980ddd4",
+                    "hash": "03b4fa715bfecf59e4e5ec8deb9f721217b8ffb0",
                     "isDynamic": true,
                     "isStyle": true
                 }
