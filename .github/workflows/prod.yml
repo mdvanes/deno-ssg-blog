@@ -18,7 +18,7 @@ jobs:
       - name: Checkout 🛎️
         uses: actions/checkout@v2
       - name: Use Deno ${{ matrix.deno }}
-        uses: denolib/setup-deno@c7d7968ad4a59c159a777f79adddad6872ee8d96
+        uses: denolib/setup-deno@v2.3.0
         with:
           deno-version: ${{ matrix.deno }}
       - name: Install and Build components 🔧
