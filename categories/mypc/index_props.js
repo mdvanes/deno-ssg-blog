@@ -18,7 +18,7 @@ export default {
                 "pagePath": "posts/rootaccess.md",
                 "title": "Gaining Root Access to Smart Home Gateway",
                 "link": "posts/rootaccess.html",
-                "date": "2021-03-06T14:26:34.000Z",
+                "date": "2021-03-06T14:31:04.000Z",
                 "updated": null,
                 "author": "mdvanes",
                 "contributors": [
