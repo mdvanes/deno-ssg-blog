@@ -1,12 +1,12 @@
 import projectConfig from '/deno-ssg-blog/pagic.config.js';
 export default {
     config: { "root": "/", ...projectConfig, branch: 'main' },
-    'pagePath': "categories/README.md",
-    'layoutPath': "categories/_layout.tsx",
-    'outputPath': "categories/index.html",
-    'title': "Categories",
+    'pagePath': "about.md",
+    'layoutPath': "_layout.tsx",
+    'outputPath': "about.html",
+    'title': "About",
     'content': React.createElement("article", { dangerouslySetInnerHTML: {
-            __html: '<h1>Categories</h1>'
+            __html: '<p><a href="/">home</a>\n<a href="/publications">publications</a>\n<a href="/about">about</a></p>\n<h1>About</h1>\n<p>Aleph should support &quot;Markdown pages&quot;, see <a href="https://alephjs.org/docs/basic-features/pages">the docs</a>, just like Next and Gatsby.</p>\n<p>However, so far it gives a 404 when navigating to /about.</p>\n<p>It does not (yet) seem to support an automatic list of pages, so links must be added manually, in this case in AppTopBar.tsx.</p>'
         } }),
     'head': React.createElement(React.Fragment, null,
         React.createElement("link", { crossOrigin: "anonymous", href: "https://cdn.jsdelivr.net/npm/katex@0.12.0/dist/katex.min.css", integrity: "sha384-AfEj0r4/OFrOo5t7NnNe46zW/tFgW6x/bCJG8FqQCEo3+Aro6EYUG4+cU+KJWu/X", rel: "stylesheet" })),
@@ -14,9 +14,9 @@ export default {
         React.createElement("script", { src: "https://cdn.pagic.org/react@16.13.1/umd/react.production.min.js" }),
         React.createElement("script", { src: "https://cdn.pagic.org/react-dom@16.13.1/umd/react-dom.production.min.js" }),
         React.createElement("script", { src: "/deno-ssg-blog/index.js", type: "module" })),
-    'contentTitle': React.createElement("h1", { key: "0" }, "Categories"),
+    'contentTitle': undefined,
     'contentBody': React.createElement("article", { dangerouslySetInnerHTML: {
-            __html: ''
+            __html: '<p><a href="/">home</a>\n<a href="/publications">publications</a>\n<a href="/about">about</a></p>\n<h1>About</h1>\n<p>Aleph should support &quot;Markdown pages&quot;, see <a href="https://alephjs.org/docs/basic-features/pages">the docs</a>, just like Next and Gatsby.</p>\n<p>However, so far it gives a 404 when navigating to /about.</p>\n<p>It does not (yet) seem to support an automatic list of pages, so links must be added manually, in this case in AppTopBar.tsx.</p>'
         } }),
     'toc': null,
     'author': "mdvanes",
@@ -25,7 +25,7 @@ export default {
     ],
     'date': "2021-03-06T14:26:34.000Z",
     'updated': null,
-    'excerpt': "",
+    'excerpt': "home publications about About Aleph should support \"Markdown pages\", see the docs, just like Next and Gatsby. However, so far it gives a 404 when navigating to /about. It does not (yet) seem to support an autom...",
     'cover': undefined,
     'blog': {
         "isPost": false,
