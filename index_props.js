@@ -23,7 +23,7 @@ export default {
     'contributors': [
         "mdvanes"
     ],
-    'date': "2021-03-06T12:23:23.000Z",
+    'date': "2021-03-06T12:25:29.000Z",
     'updated': null,
     'excerpt': "A simple website to test Aleph & Deno. Uses Material UI, React, Aleph, Deno. Pagic SSG Blog - Install Deno - Install Aleph: deno install -A -f -n aleph https://deno.land/x/aleph@v0.3.0-alpha.1/cli.ts - Run loca...",
     'cover': undefined,
@@ -31,10 +31,29 @@ export default {
         "isPost": false,
         "posts": [
             {
+                "pagePath": "posts/rootaccess.md",
+                "title": "Gaining Root Access to Smart Home Gateway",
+                "link": "posts/rootaccess.html",
+                "date": "2021-03-06T12:25:29.000Z",
+                "updated": null,
+                "author": "mdvanes",
+                "contributors": [
+                    "mdvanes"
+                ],
+                "categories": [
+                    "mypc"
+                ],
+                "tags": [
+                    "Code quality",
+                    "Code complexity"
+                ],
+                "excerpt": "------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------..."
+            },
+            {
                 "pagePath": "posts/myfirstpost.md",
                 "title": "My First Post",
                 "link": "posts/myfirstpost.html",
-                "date": "2021-03-06T12:23:23.000Z",
+                "date": "2021-03-06T12:25:29.000Z",
                 "updated": null,
                 "author": "mdvanes",
                 "contributors": [
@@ -53,32 +72,20 @@ export default {
                 "pagePath": "posts/apollo.md",
                 "title": "Apollo in practice",
                 "link": "posts/apollo.html",
-                "date": "2021-03-06T12:23:23.000Z",
+                "date": "2021-03-06T12:25:29.000Z",
                 "updated": null,
                 "author": "mdvanes",
                 "contributors": [
                     "mdvanes"
                 ],
                 "excerpt": "------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------..."
-            },
-            {
-                "pagePath": "posts/rootaccess.md",
-                "title": "Gaining Root Access to Smart Home Gateway",
-                "link": "posts/rootaccess.html",
-                "date": "05-09-2019",
-                "updated": null,
-                "author": "mdvanes",
-                "contributors": [
-                    "mdvanes"
-                ],
-                "tags": [
-                    "mypc"
-                ],
-                "excerpt": "Recently I bought a Risco Smart Home Gateway, and as I expected it is a rebranded off-the-shelf micro computer. When delivered, the HDMI and optical S/PDIF outputs and IR input hinted that it was not just a ded...",
-                "cover": ""
             }
         ],
         "categories": [
+            {
+                "name": "mypc",
+                "count": 1
+            },
             {
                 "name": "Programming",
                 "count": 1
@@ -87,15 +94,11 @@ export default {
         "tags": [
             {
                 "name": "Code complexity",
-                "count": 1
+                "count": 2
             },
             {
                 "name": "Code quality",
-                "count": 1
-            },
-            {
-                "name": "mypc",
-                "count": 1
+                "count": 2
             }
         ]
     }

@@ -18,7 +18,7 @@ export default {
                 "pagePath": "posts/myfirstpost.md",
                 "title": "My First Post",
                 "link": "posts/myfirstpost.html",
-                "date": "2021-03-06T12:23:23.000Z",
+                "date": "2021-03-06T12:25:29.000Z",
                 "updated": null,
                 "author": "mdvanes",
                 "contributors": [
@@ -36,6 +36,10 @@ export default {
         ],
         "categories": [
             {
+                "name": "mypc",
+                "count": 1
+            },
+            {
                 "name": "Programming",
                 "count": 1
             }
@@ -43,15 +47,11 @@ export default {
         "tags": [
             {
                 "name": "Code complexity",
-                "count": 1
+                "count": 2
             },
             {
                 "name": "Code quality",
-                "count": 1
-            },
-            {
-                "name": "mypc",
-                "count": 1
+                "count": 2
             }
         ]
     }

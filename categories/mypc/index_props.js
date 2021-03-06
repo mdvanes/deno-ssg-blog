@@ -1,9 +1,9 @@
 import projectConfig from '/deno-ssg-blog/pagic.config.js';
 export default {
     config: { "root": "/", ...projectConfig, branch: 'main' },
-    'pagePath': "tags/mypc/",
+    'pagePath': "categories/mypc/",
     'layoutPath': "archives/_layout.tsx",
-    'outputPath': "tags/mypc/index.html",
+    'outputPath': "categories/mypc/index.html",
     'head': null,
     'script': React.createElement(React.Fragment, null,
         React.createElement("script", { src: "https://cdn.pagic.org/react@16.13.1/umd/react.production.min.js" }),
@@ -18,20 +18,27 @@ export default {
                 "pagePath": "posts/rootaccess.md",
                 "title": "Gaining Root Access to Smart Home Gateway",
                 "link": "posts/rootaccess.html",
-                "date": "05-09-2019",
+                "date": "2021-03-06T12:25:29.000Z",
                 "updated": null,
                 "author": "mdvanes",
                 "contributors": [
                     "mdvanes"
                 ],
-                "tags": [
+                "categories": [
                     "mypc"
                 ],
-                "excerpt": "Recently I bought a Risco Smart Home Gateway, and as I expected it is a rebranded off-the-shelf micro computer. When delivered, the HDMI and optical S/PDIF outputs and IR input hinted that it was not just a ded...",
-                "cover": ""
+                "tags": [
+                    "Code quality",
+                    "Code complexity"
+                ],
+                "excerpt": "------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------..."
             }
         ],
         "categories": [
+            {
+                "name": "mypc",
+                "count": 1
+            },
             {
                 "name": "Programming",
                 "count": 1
@@ -40,15 +47,11 @@ export default {
         "tags": [
             {
                 "name": "Code complexity",
-                "count": 1
+                "count": 2
             },
             {
                 "name": "Code quality",
-                "count": 1
-            },
-            {
-                "name": "mypc",
-                "count": 1
+                "count": 2
             }
         ]
     }
