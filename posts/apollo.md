@@ -53,7 +53,8 @@ export graphql({ query: gql`   query($author: String!) {     books(author: $auth
 ``` 
 Apollo reactively updates when using `Query` as a container, basically like the `connect` HOC in Redux. When 
 the `variables` prop on the `Query` component is updated, it will automatically re-query. It uses the cache if possible and  falls back to a network call if needed, although this behavior can be configured. 
-# Improving performance with Local Field Resolvers 
+
+## Improving performance with Local Field Resolvers 
 Having a single source of truth fixes the state synchronization problem. It also paves the way for improving the 
 performance. In general, when a lot of data enters the application, it is a good idea to format it once and cascade the 
 formatted data down to the components and it's descendants with as little transformations to the data itself. This 
@@ -74,7 +75,8 @@ to an array rows of cells
 [   [ "Mickiewicz", "Pan Tadeusz", "January 1834" ]
 ]
 ``` 
-# Next steps 
+
+## Next steps 
 Apollo is excellent for merging data from multiple sources (in this case GraphQL, REST, local state and cache) and 
 functions as a "single source of truth" which should solve the state synchronization problems. The local fields that
 Apollo uses in its local state manager can derive data, moving expensive operations from component render functions
