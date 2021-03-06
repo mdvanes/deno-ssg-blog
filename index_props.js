@@ -22,14 +22,48 @@ export default {
     'contributors': [
         "mdvanes"
     ],
-    'date': "2021-03-06T12:09:04.000Z",
+    'date': "2021-03-06T12:09:38.000Z",
     'updated': null,
     'excerpt': "A simple website to test Aleph & Deno. Uses Material UI, React, Aleph, Deno. Pagic SSG Blog - Install Deno - Install Aleph: deno install -A -f -n aleph https://deno.land/x/aleph@v0.3.0-alpha.1/cli.ts - Run loca...",
     'cover': undefined,
     'blog': {
         "isPost": false,
-        "posts": [],
-        "categories": [],
-        "tags": []
+        "posts": [
+            {
+                "pagePath": "posts/myfirstpost.md",
+                "title": "My First Post",
+                "link": "posts/myfirstpost.html",
+                "date": "2021-03-06T12:09:38.000Z",
+                "updated": null,
+                "author": "mdvanes",
+                "contributors": [
+                    "mdvanes"
+                ],
+                "categories": [
+                    "Programming"
+                ],
+                "tags": [
+                    "Code quality",
+                    "Code complexity"
+                ],
+                "excerpt": "On this wonderful Pagic powered blog"
+            }
+        ],
+        "categories": [
+            {
+                "name": "Programming",
+                "count": 1
+            }
+        ],
+        "tags": [
+            {
+                "name": "Code complexity",
+                "count": 1
+            },
+            {
+                "name": "Code quality",
+                "count": 1
+            }
+        ]
     }
 };
