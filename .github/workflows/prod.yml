@@ -24,8 +24,10 @@ jobs:
           deno-version: ${{ matrix.deno }}
       - name: Install and Build components 🔧
         run: |
-          deno install -A -f -n aleph https://deno.land/x/aleph@v0.3.0-alpha.1/cli.ts
-          aleph build
+          deno install --unstable --allow-read --allow-write --allow-net --allow-run --name=pagic https://deno.land/x/pagic/mod.ts
+
+
+          pagic build
       - name: Deploy 🚀
         uses: JamesIves/github-pages-deploy-action@4.0.0
         with:
