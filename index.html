@@ -1,44 +1,12 @@
-<!doctype html><html data-reactroot=""><head><meta charSet="utf-8"/><meta http-equiv="x-ua-compatible" content="ie=edge"/><title>Usage</title><meta name="viewport" content="width=device-width, initial-scale=1"/><link rel="stylesheet" href="/assets/index.css"/><link rel="stylesheet" href="/assets/prism_tomorrow.css"/></head><body><article><p>A simple website to test Aleph &amp; Deno.</p>
-<p>Uses Material UI, React, Aleph, Deno.</p>
-<h1>Usage</h1>
-<ul>
-<li>Install Deno</li>
-<li>Install Aleph: <code>deno install -A -f -n aleph https://deno.land/x/aleph@v0.3.0-alpha.1/cli.ts</code></li>
-<li>Run locally: <code>alph dev</code></li>
-<li>Initialize new project: <code>aleph init codestar-website-aleph</code></li>
-<li>Format (alternative to prettier): <code>deno fmt components/*.tsx api/*.tsx lib/*.tsx pages/*.tsx</code></li>
-<li>Lint (alternative to eslint): <code>deno lint components/* --unstable</code></li>
-</ul>
-<h1>Todo</h1>
-<ul>
-<li>build can't resolve .js etc when deployed because it is not inserting /codestar-website-aleph/ into the path. It can only run from the root path.</li>
-<li>aleph@v0.3.0-alpha.6 builds but gives runtime errors. .7 and .8 do not build.</li>
-<li>Use this feed and render blog <a href="https://medium.com/feed/codestar-blog">https://medium.com/feed/codestar-blog</a></li>
-<li>SSR/SSG build and release with Github Actions (Deno)</li>
-<li>API call</li>
-<li>Fix <a href="http://about.md">about.md</a></li>
-</ul>
-<h1>Notes</h1>
-<ul>
-<li><code>aleph dev</code> is very slow on first run, very fast on subsequent run</li>
-<li>it does not seem very stable: it crashes a lot when running <code>aleph dev</code> is hot updating</li>
-<li>how to keep material-ui version imports in sync over files? import_map.json?</li>
-<li>code completion does not work, e.g. proptypes on CardHeader</li>
-<li>build breaks when <a href="http://about.md">about.md</a> is in pages dir (to fix), or when Mui Icons font is imported in app.tsx (workaround available)</li>
-</ul>
-<h1>Result</h1>
-<pre class="language-autoit"><code class="language-autoit">aleph init codestar<span class="token operator">-</span>website<span class="token operator">-</span>aleph
-Download https<span class="token punctuation">:</span><span class="token operator">/</span><span class="token operator">/</span>deno<span class="token punctuation">.</span>land<span class="token operator">/</span>x<span class="token operator">/</span>aleph<span class="token variable">@v0</span><span class="token punctuation">.</span><span class="token number">3.0</span><span class="token operator">-</span>alpha<span class="token punctuation">.</span><span class="token number">1</span><span class="token operator">/</span>cli<span class="token operator">/</span>init<span class="token punctuation">.</span>ts
-Check https<span class="token punctuation">:</span><span class="token operator">/</span><span class="token operator">/</span>deno<span class="token punctuation">.</span>land<span class="token operator">/</span>x<span class="token operator">/</span>aleph<span class="token variable">@v0</span><span class="token punctuation">.</span><span class="token number">3.0</span><span class="token operator">-</span>alpha<span class="token punctuation">.</span><span class="token number">1</span><span class="token operator">/</span>cli<span class="token operator">/</span>init<span class="token punctuation">.</span>ts
-Add recommended VS Code workspace settings<span class="token operator">?</span> <span class="token punctuation">[</span>y<span class="token operator">/</span>n<span class="token punctuation">]</span> y
-Downloading template<span class="token punctuation">.</span><span class="token punctuation">.</span><span class="token punctuation">.</span>
-Saving template<span class="token punctuation">.</span><span class="token punctuation">.</span><span class="token punctuation">.</span>
-Done
-<span class="token operator">-</span><span class="token operator">-</span><span class="token operator">-</span>
-Aleph<span class="token punctuation">.</span>js is ready <span class="token keyword">to</span> Go<span class="token punctuation">.</span>
-$ cd codestar<span class="token operator">-</span>website<span class="token operator">-</span>aleph
-$ aleph dev     # start the app <span class="token keyword">in</span> `development` mode
-$ aleph start   # start the app <span class="token keyword">in</span> `production` mode
-$ aleph build   # build the app <span class="token keyword">to</span> a <span class="token keyword">static</span> site <span class="token punctuation">(</span>SSG<span class="token punctuation">)</span>
-<span class="token operator">-</span><span class="token operator">-</span><span class="token operator">-</span>
-</code></pre></article><footer>Powered by <a href="https://github.com/xcatliu/pagic" target="_blank">Pagic</a></footer><script src="https://cdn.pagic.org/react@16.13.1/umd/react.production.min.js"></script><script src="https://cdn.pagic.org/react-dom@16.13.1/umd/react-dom.production.min.js"></script><script type="module" src="/index.js"></script></body></html>
+<!doctype html><html class="" data-reactroot=""><head>
+<meta data-react-helmet="true" charset="utf-8"/><meta data-react-helmet="true" http-equiv="x-ua-compatible" content="ie=edge"/><meta data-react-helmet="true" name="viewport" content="width=device-width, initial-scale=1"/>
+<title data-react-helmet="true">Usage</title>
+<link data-react-helmet="true" rel="stylesheet" href="/deno-ssg-blog/assets/index.css"/><link data-react-helmet="true" id="prismTheme" rel="stylesheet" href="/deno-ssg-blog/assets/prism.css"/>
+<script data-react-helmet="true" >
+    const shouldSetIsDark = document.cookie.includes('is_dark=1') ? true : document.cookie.includes('is_dark=0') ? false : window.matchMedia('(prefers-color-scheme: dark)').matches;
+    if (shouldSetIsDark) {
+      document.documentElement.classList.add('is_dark');
+      document.getElementById('prismTheme').href = "/deno-ssg-blog/assets/prism_tomorrow.css";
+    }
+  </script>
+</head><body><a class="czs-menu-l show_on_mobile aside_button_open" href="#" style="background-image:url(&quot;/deno-ssg-blog/assets/czs-menu-l.svg&quot;)"></a><a class="show_on_mobile aside_button_text" href="/deno-ssg-blog/"></a><aside class="hide_on_mobile"><div class="aside_card"><a class="czs-menu-l show_on_mobile aside_button_close" href="#" style="background-image:url(&quot;/deno-ssg-blog/assets/czs-close-l.svg&quot;)"></a><h1><a href="/deno-ssg-blog/"></a></h1><p class="description"></p><ul class="social list_style_none"><li style="flex-grow:1"></li><li class="toggle_dark flex_center"><span class="czs-sun" style="background-image:url(&quot;/deno-ssg-blog/assets/czs-sun.svg&quot;)"></span><span class="czs-sun-l" style="background-image:url(&quot;/deno-ssg-blog/assets/czs-sun-l.svg&quot;)"></span><span class="czs-moon" style="background-image:url(&quot;/deno-ssg-blog/assets/czs-moon.svg&quot;)"></span><span class="czs-moon-l" style="background-image:url(&quot;/deno-ssg-blog/assets/czs-moon-l.svg&quot;)"></span></li></ul><nav><ul class="menu list_style_none"></ul></nav></div></aside><section class="main"><article><h1>Usage</h1><ul class="main_posts list_style_none"></ul></article></section><footer>Powered by <a href="https://github.com/xcatliu/pagic" target="_blank">Pagic</a></footer><script src="https://cdn.pagic.org/react@16.13.1/umd/react.production.min.js"></script><script src="https://cdn.pagic.org/react-dom@16.13.1/umd/react-dom.production.min.js"></script><script type="module" src="/deno-ssg-blog/index.js"></script></body></html>
