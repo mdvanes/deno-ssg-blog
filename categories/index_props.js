@@ -1,16 +1,32 @@
 import projectConfig from '/deno-ssg-blog/pagic.config.js';
 export default {
     config: { "root": "/", ...projectConfig, branch: 'main' },
-    'pagePath': "tags/Code complexity/",
-    'layoutPath': "archives/_layout.tsx",
-    'outputPath': "tags/Code complexity/index.html",
-    'head': null,
+    'pagePath': "categories/README.md",
+    'layoutPath': "categories/_layout.tsx",
+    'outputPath': "categories/index.html",
+    'title': "Categories",
+    'content': React.createElement("article", { dangerouslySetInnerHTML: {
+            __html: '<h1>Categories</h1>'
+        } }),
+    'head': React.createElement(React.Fragment, null,
+        React.createElement("link", { crossOrigin: "anonymous", href: "https://cdn.jsdelivr.net/npm/katex@0.12.0/dist/katex.min.css", integrity: "sha384-AfEj0r4/OFrOo5t7NnNe46zW/tFgW6x/bCJG8FqQCEo3+Aro6EYUG4+cU+KJWu/X", rel: "stylesheet" })),
     'script': React.createElement(React.Fragment, null,
         React.createElement("script", { src: "https://cdn.pagic.org/react@16.13.1/umd/react.production.min.js" }),
         React.createElement("script", { src: "https://cdn.pagic.org/react-dom@16.13.1/umd/react-dom.production.min.js" }),
         React.createElement("script", { src: "/deno-ssg-blog/index.js", type: "module" })),
-    'title': "Code complexity",
-    'content': null,
+    'contentTitle': React.createElement("h1", { key: "0" }, "Categories"),
+    'contentBody': React.createElement("article", { dangerouslySetInnerHTML: {
+            __html: ''
+        } }),
+    'toc': null,
+    'author': "mdvanes",
+    'contributors': [
+        "mdvanes"
+    ],
+    'date': "2021-03-06T12:32:20.000Z",
+    'updated': null,
+    'excerpt': "",
+    'cover': undefined,
     'blog': {
         "isPost": false,
         "posts": [
@@ -51,6 +67,18 @@ export default {
                     "Code complexity"
                 ],
                 "excerpt": "On this wonderful Pagic powered blog"
+            },
+            {
+                "pagePath": "posts/apollo.md",
+                "title": "Apollo in practice",
+                "link": "posts/apollo.html",
+                "date": "2021-03-06T12:32:20.000Z",
+                "updated": null,
+                "author": "mdvanes",
+                "contributors": [
+                    "mdvanes"
+                ],
+                "excerpt": "------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------..."
             }
         ],
         "categories": [
