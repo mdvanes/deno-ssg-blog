@@ -1,10 +1,19 @@
+
+
+
+
+
+
+
 ---
-title: "Apollo Client in Practice"
-cover: ""
-date: "02-05-2019"
-category: "webdevelopment"
-tags:     - webdevelopment
+categories:
+  - Programming
+tags:
+  - Code quality
+  - Code complexity
 ---
+
+# Apollo in practice
 
 Some time ago I joined a team that is working on a search application. The application takes search terms and displays 
 the results in a table with potentially dozens of columns and hundreds   of rows, even before pagination. It is implemented in React and uses [Apollo](https://www.apollographql.com/) for 
