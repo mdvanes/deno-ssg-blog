@@ -23,7 +23,7 @@ export default {
     'contributors': [
         "mdvanes"
     ],
-    'date': "2021-03-06T12:15:06.000Z",
+    'date': "2021-03-06T12:23:23.000Z",
     'updated': null,
     'excerpt': "On this wonderful Pagic powered blog",
     'cover': undefined,
@@ -41,7 +41,7 @@ export default {
                 "pagePath": "posts/myfirstpost.md",
                 "title": "My First Post",
                 "link": "posts/myfirstpost.html",
-                "date": "2021-03-06T12:15:06.000Z",
+                "date": "2021-03-06T12:23:23.000Z",
                 "updated": null,
                 "author": "mdvanes",
                 "contributors": [
@@ -55,6 +55,18 @@ export default {
                     "Code complexity"
                 ],
                 "excerpt": "On this wonderful Pagic powered blog"
+            },
+            {
+                "pagePath": "posts/apollo.md",
+                "title": "Apollo in practice",
+                "link": "posts/apollo.html",
+                "date": "2021-03-06T12:23:23.000Z",
+                "updated": null,
+                "author": "mdvanes",
+                "contributors": [
+                    "mdvanes"
+                ],
+                "excerpt": "------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------..."
             },
             {
                 "pagePath": "posts/rootaccess.md",

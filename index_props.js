@@ -23,7 +23,7 @@ export default {
     'contributors': [
         "mdvanes"
     ],
-    'date': "2021-03-06T12:15:06.000Z",
+    'date': "2021-03-06T12:23:23.000Z",
     'updated': null,
     'excerpt': "A simple website to test Aleph & Deno. Uses Material UI, React, Aleph, Deno. Pagic SSG Blog - Install Deno - Install Aleph: deno install -A -f -n aleph https://deno.land/x/aleph@v0.3.0-alpha.1/cli.ts - Run loca...",
     'cover': undefined,
@@ -34,7 +34,7 @@ export default {
                 "pagePath": "posts/myfirstpost.md",
                 "title": "My First Post",
                 "link": "posts/myfirstpost.html",
-                "date": "2021-03-06T12:15:06.000Z",
+                "date": "2021-03-06T12:23:23.000Z",
                 "updated": null,
                 "author": "mdvanes",
                 "contributors": [
@@ -48,6 +48,18 @@ export default {
                     "Code complexity"
                 ],
                 "excerpt": "On this wonderful Pagic powered blog"
+            },
+            {
+                "pagePath": "posts/apollo.md",
+                "title": "Apollo in practice",
+                "link": "posts/apollo.html",
+                "date": "2021-03-06T12:23:23.000Z",
+                "updated": null,
+                "author": "mdvanes",
+                "contributors": [
+                    "mdvanes"
+                ],
+                "excerpt": "------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------..."
             },
             {
                 "pagePath": "posts/rootaccess.md",
