@@ -8,7 +8,8 @@ export default {
     'content': React.createElement("article", { dangerouslySetInnerHTML: {
             __html: '<h1>My First Post</h1>\n<p>On this wonderful Pagic powered blog</p>'
         } }),
-    'head': null,
+    'head': React.createElement(React.Fragment, null,
+        React.createElement("link", { crossOrigin: "anonymous", href: "https://cdn.jsdelivr.net/npm/katex@0.12.0/dist/katex.min.css", integrity: "sha384-AfEj0r4/OFrOo5t7NnNe46zW/tFgW6x/bCJG8FqQCEo3+Aro6EYUG4+cU+KJWu/X", rel: "stylesheet" })),
     'script': React.createElement(React.Fragment, null,
         React.createElement("script", { src: "https://cdn.pagic.org/react@16.13.1/umd/react.production.min.js" }),
         React.createElement("script", { src: "https://cdn.pagic.org/react-dom@16.13.1/umd/react-dom.production.min.js" }),
@@ -22,7 +23,7 @@ export default {
     'contributors': [
         "mdvanes"
     ],
-    'date': "2021-03-06T12:09:38.000Z",
+    'date': "2021-03-06T12:15:06.000Z",
     'updated': null,
     'excerpt': "On this wonderful Pagic powered blog",
     'cover': undefined,
@@ -40,7 +41,7 @@ export default {
                 "pagePath": "posts/myfirstpost.md",
                 "title": "My First Post",
                 "link": "posts/myfirstpost.html",
-                "date": "2021-03-06T12:09:38.000Z",
+                "date": "2021-03-06T12:15:06.000Z",
                 "updated": null,
                 "author": "mdvanes",
                 "contributors": [
@@ -54,6 +55,22 @@ export default {
                     "Code complexity"
                 ],
                 "excerpt": "On this wonderful Pagic powered blog"
+            },
+            {
+                "pagePath": "posts/rootaccess.md",
+                "title": "Gaining Root Access to Smart Home Gateway",
+                "link": "posts/rootaccess.html",
+                "date": "05-09-2019",
+                "updated": null,
+                "author": "mdvanes",
+                "contributors": [
+                    "mdvanes"
+                ],
+                "tags": [
+                    "mypc"
+                ],
+                "excerpt": "Recently I bought a Risco Smart Home Gateway, and as I expected it is a rebranded off-the-shelf micro computer. When delivered, the HDMI and optical S/PDIF outputs and IR input hinted that it was not just a ded...",
+                "cover": ""
             }
         ],
         "categories": [
@@ -69,6 +86,10 @@ export default {
             },
             {
                 "name": "Code quality",
+                "count": 1
+            },
+            {
+                "name": "mypc",
                 "count": 1
             }
         ]
