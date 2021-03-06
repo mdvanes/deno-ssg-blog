@@ -22,7 +22,7 @@ export default {
     'contributors': [
         "mdvanes"
     ],
-    'date': "2021-03-06T12:04:24.000Z",
+    'date': "2021-03-06T12:09:04.000Z",
     'updated': null,
     'excerpt': "A simple website to test Aleph & Deno. Uses Material UI, React, Aleph, Deno. Pagic SSG Blog - Install Deno - Install Aleph: deno install -A -f -n aleph https://deno.land/x/aleph@v0.3.0-alpha.1/cli.ts - Run loca...",
     'cover': undefined,
