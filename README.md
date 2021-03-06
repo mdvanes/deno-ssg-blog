@@ -2,7 +2,7 @@ A simple website to test Aleph & Deno.
 
 Uses Material UI, React, Aleph, Deno.
 
-# Usage
+# Pagic SSG Blog
 
 - Install Deno
 - Install Aleph: `deno install -A -f -n aleph https://deno.land/x/aleph@v0.3.0-alpha.1/cli.ts`
