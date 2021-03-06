@@ -1,11 +1,22 @@
 ---
-title: "Gaining Root Access to Smart Home Gateway"
+categories:
+  - mypc
+tags:
+  - Code quality
+  - Code complexity
+---
+
+
+# Gaining Root Access to Smart Home Gateway
+
+---
+title: "Gaining Root Access to Smart Home Gateway
 cover: ""
 date: "05-09-2019"
-category: "mypc"
-tags:
-    - mypc
----
+category
+
+
+
 
 Recently I bought a Risco Smart Home Gateway, and as I expected it is a rebranded off-the-shelf micro computer. 
 When delivered, the HDMI and optical S/PDIF outputs and IR input hinted that it was not just a dedicated smart home 
