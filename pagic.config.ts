@@ -1,5 +1,5 @@
 export default {
-  exclude: ['api', 'components', 'lib', 'pages', 'public','style'],
+  exclude: ['api', 'components', 'lib', 'pages', 'public','style', 'app.tsx'],
   root: "/deno-ssg-blog/",
   title: "Pagic ssg Blog",  description: 'Welcome to my blog, where I have collected my technical articles and life insights.',
   theme: "blog",
