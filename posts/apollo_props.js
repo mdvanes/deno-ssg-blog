@@ -23,7 +23,7 @@ export default {
     'contributors': [
         "mdvanes"
     ],
-    'date': "2021-03-06T12:25:29.000Z",
+    'date': "2021-03-06T12:26:03.000Z",
     'updated': null,
     'excerpt': "------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------...",
     'cover': undefined,
@@ -34,7 +34,7 @@ export default {
                 "pagePath": "posts/rootaccess.md",
                 "title": "Gaining Root Access to Smart Home Gateway",
                 "link": "posts/rootaccess.html",
-                "date": "2021-03-06T12:25:29.000Z",
+                "date": "2021-03-06T12:26:03.000Z",
                 "updated": null,
                 "author": "mdvanes",
                 "contributors": [
@@ -47,13 +47,13 @@ export default {
                     "Code quality",
                     "Code complexity"
                 ],
-                "excerpt": "------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------..."
+                "excerpt": "cover Recently I bought a Risco Smart Home Gateway, and as I expected it is a rebranded off-the-shelf micro computer. When delivered, the HDMI and optical S/PDIF outputs and IR input hinted that it was not just..."
             },
             {
                 "pagePath": "posts/myfirstpost.md",
                 "title": "My First Post",
                 "link": "posts/myfirstpost.html",
-                "date": "2021-03-06T12:25:29.000Z",
+                "date": "2021-03-06T12:26:03.000Z",
                 "updated": null,
                 "author": "mdvanes",
                 "contributors": [
@@ -72,7 +72,7 @@ export default {
                 "pagePath": "posts/apollo.md",
                 "title": "Apollo in practice",
                 "link": "posts/apollo.html",
-                "date": "2021-03-06T12:25:29.000Z",
+                "date": "2021-03-06T12:26:03.000Z",
                 "updated": null,
                 "author": "mdvanes",
                 "contributors": [
