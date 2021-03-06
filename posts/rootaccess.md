@@ -9,11 +9,11 @@ tags:
 
 # Gaining Root Access to Smart Home Gateway
 
----
-title: "Gaining Root Access to Smart Home Gateway
-cover: ""
-date: "05-09-2019"
-category
+
+
+cover
+
+
 
 
 
