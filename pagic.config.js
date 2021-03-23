@@ -6,7 +6,7 @@ export default {
     theme: "blog",
     plugins: ["blog"],
     nav: [
-        { text: "Homepage", link: "index.html", icon: "czs-home-l" },
+        { text: "Homepage", link: "/deno-ssg-blog/index.html", icon: "czs-home-l" },
         {
             text: "Categories",
             link: "../categories/index.html",
