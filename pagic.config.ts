@@ -10,11 +10,11 @@ export default {
     { text: "Homepage", link: "/deno-ssg-blog/index.html", icon: "czs-home-l" },
     {
       text: "Categories",
-      link: "../categories/index.html",
+      link: "/deno-ssg-blog/categories/index.html",
       icon: "czs-category-l",
     },
-    { text: "Tags", link: "../tags/index.html", icon: "czs-tag-l" },
-    { text: "About", link: "../about/index.html", icon: "czs-about-l" },
+    { text: "Tags", link: "/deno-ssg-blog/tags/index.html", icon: "czs-tag-l" },
+    { text: "About", link: "/deno-ssg-blog/about/index.html", icon: "czs-about-l" },
   ],
   blog: {
     social: {
