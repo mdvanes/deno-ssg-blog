@@ -5,6 +5,14 @@ Uses Material UI, React, Aleph, Deno.
 # Pagic SSG Blog
 
 - Install Deno
+- Install Aleph deno install --unstable --allow-read --allow-write --allow-net --allow-run --name=pagic https://deno.land/x/pagic/mod.ts
+- Install Velociraptor: deno install -qA -n vr https://deno.land/x/velociraptor@1.0.0-beta.18/cli.ts
+- Start dev server from scripts.yaml: `vr start`
+- Build for production from scripts.yaml: `vr build`
+
+# Aleph SSG Blog
+
+- Install Deno
 - Install Aleph: `deno install -A -f -n aleph https://deno.land/x/aleph@v0.3.0-alpha.1/cli.ts`
 - Run locally: `alph dev`
 - Initialize new project: `aleph init codestar-website-aleph`
@@ -13,6 +21,13 @@ Uses Material UI, React, Aleph, Deno.
 
 # Todo
 
+- Pagic API call
+- Pagic https://deno.land/x/pagic
+- dvm deno.land: Deno version manager
+- velociraptor deno.land: scripts https://deno.land/x/velociraptor
+    - $ deno install -qA -n vr https://deno.land/x/velociraptor@1.0.0-beta.18/cli.ts
+    - scripts.yaml
+- autopilot deno.land: desktop automation
 - build can't resolve .js etc when deployed because it is not inserting /codestar-website-aleph/ into the path. It can only run from the root path.
 - aleph@v0.3.0-alpha.6 builds but gives runtime errors. .7 and .8 do not build.
 - Use this feed and render blog https://medium.com/feed/codestar-blog

@@ -1,0 +1,4 @@
+# scripts.yaml
+scripts:
+  start: pagic build --watch --serve
+  build: pagic build
