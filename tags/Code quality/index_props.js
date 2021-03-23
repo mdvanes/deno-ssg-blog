@@ -18,11 +18,11 @@ export default {
                 "pagePath": "posts/rootaccess.md",
                 "title": "Gaining Root Access to Smart Home Gateway",
                 "link": "posts/rootaccess.html",
-                "date": "2021-03-06T14:31:04.000Z",
+                "date": "2021-03-23T11:59:04.000Z",
                 "updated": null,
-                "author": "mdvanes",
+                "author": "M.D. van Es",
                 "contributors": [
-                    "mdvanes"
+                    "M.D. van Es"
                 ],
                 "categories": [
                     "mypc"
@@ -37,11 +37,11 @@ export default {
                 "pagePath": "posts/myfirstpost.md",
                 "title": "My First Post",
                 "link": "posts/myfirstpost.html",
-                "date": "2021-03-06T14:31:04.000Z",
+                "date": "2021-03-23T11:59:04.000Z",
                 "updated": null,
-                "author": "mdvanes",
+                "author": "M.D. van Es",
                 "contributors": [
-                    "mdvanes"
+                    "M.D. van Es"
                 ],
                 "categories": [
                     "Programming"

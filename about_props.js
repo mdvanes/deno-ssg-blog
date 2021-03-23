@@ -19,11 +19,11 @@ export default {
             __html: '<p><a href="/">home</a>\n<a href="/publications">publications</a>\n<a href="/about">about</a></p>\n<h1>About</h1>\n<p>Aleph should support &quot;Markdown pages&quot;, see <a href="https://alephjs.org/docs/basic-features/pages">the docs</a>, just like Next and Gatsby.</p>\n<p>However, so far it gives a 404 when navigating to /about.</p>\n<p>It does not (yet) seem to support an automatic list of pages, so links must be added manually, in this case in AppTopBar.tsx.</p>'
         } }),
     'toc': null,
-    'author': "mdvanes",
+    'author': "M.D. van Es",
     'contributors': [
-        "mdvanes"
+        "M.D. van Es"
     ],
-    'date': "2021-03-06T14:31:04.000Z",
+    'date': "2021-03-23T11:59:04.000Z",
     'updated': null,
     'excerpt': "home publications about About Aleph should support \"Markdown pages\", see the docs, just like Next and Gatsby. However, so far it gives a 404 when navigating to /about. It does not (yet) seem to support an autom...",
     'cover': undefined,
@@ -34,11 +34,11 @@ export default {
                 "pagePath": "posts/rootaccess.md",
                 "title": "Gaining Root Access to Smart Home Gateway",
                 "link": "posts/rootaccess.html",
-                "date": "2021-03-06T14:31:04.000Z",
+                "date": "2021-03-23T11:59:04.000Z",
                 "updated": null,
-                "author": "mdvanes",
+                "author": "M.D. van Es",
                 "contributors": [
-                    "mdvanes"
+                    "M.D. van Es"
                 ],
                 "categories": [
                     "mypc"
@@ -53,11 +53,11 @@ export default {
                 "pagePath": "posts/myfirstpost.md",
                 "title": "My First Post",
                 "link": "posts/myfirstpost.html",
-                "date": "2021-03-06T14:31:04.000Z",
+                "date": "2021-03-23T11:59:04.000Z",
                 "updated": null,
-                "author": "mdvanes",
+                "author": "M.D. van Es",
                 "contributors": [
-                    "mdvanes"
+                    "M.D. van Es"
                 ],
                 "categories": [
                     "Programming"
@@ -72,11 +72,11 @@ export default {
                 "pagePath": "posts/apollo.md",
                 "title": "Apollo in practice",
                 "link": "posts/apollo.html",
-                "date": "2021-03-06T14:31:04.000Z",
+                "date": "2021-03-23T11:59:04.000Z",
                 "updated": null,
-                "author": "mdvanes",
+                "author": "M.D. van Es",
                 "contributors": [
-                    "mdvanes"
+                    "M.D. van Es"
                 ],
                 "excerpt": "------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------..."
             }
