@@ -18,7 +18,7 @@ export default {
                 "pagePath": "posts/myfirstpost.md",
                 "title": "My First Post",
                 "link": "posts/myfirstpost.html",
-                "date": "2021-03-23T12:09:52.000Z",
+                "date": "2021-03-23T12:17:27.000Z",
                 "updated": null,
                 "author": "M.D. van Es",
                 "contributors": [
