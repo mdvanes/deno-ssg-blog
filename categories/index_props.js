@@ -23,7 +23,7 @@ export default {
     'contributors': [
         "M.D. van Es"
     ],
-    'date': "2021-03-23T12:03:45.000Z",
+    'date': "2021-03-23T12:09:14.000Z",
     'updated': null,
     'excerpt': "",
     'cover': undefined,
@@ -34,7 +34,7 @@ export default {
                 "pagePath": "posts/rootaccess.md",
                 "title": "Gaining Root Access to Smart Home Gateway",
                 "link": "posts/rootaccess.html",
-                "date": "2021-03-23T12:03:45.000Z",
+                "date": "2021-03-23T12:09:14.000Z",
                 "updated": null,
                 "author": "M.D. van Es",
                 "contributors": [
@@ -53,7 +53,7 @@ export default {
                 "pagePath": "posts/myfirstpost.md",
                 "title": "My First Post",
                 "link": "posts/myfirstpost.html",
-                "date": "2021-03-23T12:03:45.000Z",
+                "date": "2021-03-23T12:09:14.000Z",
                 "updated": null,
                 "author": "M.D. van Es",
                 "contributors": [
@@ -72,7 +72,7 @@ export default {
                 "pagePath": "posts/apollo.md",
                 "title": "Apollo in practice",
                 "link": "posts/apollo.html",
-                "date": "2021-03-23T12:03:45.000Z",
+                "date": "2021-03-23T12:09:14.000Z",
                 "updated": null,
                 "author": "M.D. van Es",
                 "contributors": [
